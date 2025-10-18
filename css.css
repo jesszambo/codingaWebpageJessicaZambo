@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.button1 {
+  background-color: #E85234;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 13px;
+  font-family: 'Cal Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;               
+  border: 1px solid black; 
+}
+
+header{
+	text-align: center;
+}
+
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+img{
+	 margin: auto; display: block; margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 40px auto;
+  max-width: calc(100% - 400px);
+  height: auto;
+}
+
+.leftImage{
+	float: left;
+	paddng-right: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.rightImage{
+	float: right;
+	paddng-left: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+footer {
+  background-color: #E85234;
+  color: white;
+  text-align: center;
+  padding: 60px;
+  width: 100%;
+  margin-top: 60px;
+}
+
+main {
+  flex: 1;
+  padding: 0 180px;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+address{
+	font-family: 'Montserrat'; font-size: 1em; color: #black; margin-bottom: 25px; text-align: center; font-weight:600; margin-bottom: 45px; text-deoration: none;
+}
+
+h1{
+	font-family: 'cal sans'; font-size: 3.15em; color:#E85234; text-align: center; margin-top: 90px; margin-bottom: 10px;
+}
+
+header h1{
+	font-family: 'cal sans'; font-size: 3.15em; color:#E85234; margin-bottom: -10px; text-align: center; margin-top: 90px;
+}
+
+h{
+	font-family: 'cal sans'; font-size: 4.5em; color:#E85234; font-weight: 700; margin-top: 0px; text-align: center; display: block; margin-bottom: 35px;
+}
+
+h2{
+	font-family: 'cal sans'; font-size: 1.5em; color: #E85234; text-transform: uppercase; margin-top: 70px;margin-left: 200px;  margin-right: 200px;
+}
+
+h3{
+	font-family: 'cal sans'; font-size: 1.5em; color: #E85234; text-transform: uppercase; margin-top: 50px; margin-right: 200px; margin-left: 200px; 
+}
+
+h5{
+	font-family: 'cal sans'; font-size: 1.5em; color: #F7F4E9; text-transform: uppercase; font-weight:500;
+}
+
+p{
+	font-family: 'Montserrat'; font-size: 1em; color: black; margin-bottom: 25px;  margin-bottom: 30px; word-wrap: break-word;
+  overflow-wrap: break-word; margin-left: 200px;  margin-right: 200px;
+}
+
+cite{
+	font-family: 'Montserrat'; font-size: 0.85em; color: black; text-align: center; margin: 0 auto;  display: block;  padding-bottom: 30px;
+}
+
+p2{
+	font-family: 'Montserrat'; font-size: 1em; color: white; margin-bottom: 25px; text-align:center; margin-bottom: 30px; 
+}
+
+q{
+	color: #E85234;
+	padding-top: 200px;
+	font-weight: 600;
+	font-size: 2em;
+	text-align: center;
+	
+}
+
+.type-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;       
+  flex-wrap: wrap; 
+	margin-right: 10px;
+	margin-left:10px;
+}
+
+.type-column {
+  flex: 1;  
+  min-width: 250px; 
+  max-width: 450px; 
+  margin: 20px auto; 
+}
+
+.type-column img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+	max-width: none;}
+
+.type-column h4 {
+  font-family: 'Cal Sans', sans-serif;
+  font-size: 1.25em;
+  color: #E85234;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+	white-space: nowrap;
+	
+}
+
+h4{
+	  font-family: 'Cal Sans', sans-serif;
+  font-size: 1.5em;
+  color: #E85234;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+	white-space: nowrap;
+}
+
+.type-column p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: black;
+  line-height: 1.6;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0 auto 20px auto; 
+  max-width: 100%;
+}
+
+.learn-section {
+  background-color: #E85234; 
+  padding: 50px 20px;   
+	margin-top: 80px;
+  color: white;        
+  text-align: center; 	
+	margin-bottom: 90px;
+}
+
+.learn-section h2 {
+  font-family: 'Cal Sans', sans-serif;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.learn-section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+max-width: none;
+  padding: 0 100px;
+  margin: 0 auto;
+  color: white;   
+}
+
+.learn-section a {
+  color: aquamarine; 
+	
+}
+
+.learn-section .button1 {
+  margin-top: 20px;
+	
+}
+
+a{
+	color: blue;
+}
+
+a:hover{
+	
+	color: red;
+	
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.video-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px; /* space between text and video */
+  margin: 60px auto;
+  flex-wrap: wrap; /* allows stacking on smaller screens */
+}
+
+.video-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.video-text h3 {
+  text-align: left;
+}
+
+.video-text p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.video-container {
+  flex: 1;
+  min-width: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+}
+
+footer a{
+	color: aquamarine;
+}
+
+
+body {
+  background-color: #F7F4E9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
